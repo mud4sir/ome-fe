@@ -1,5 +1,5 @@
 type NavigationProps = {
-    title: string
+    content: string
 }
 
 export default NavigationProps;

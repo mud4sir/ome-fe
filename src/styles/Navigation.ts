@@ -7,13 +7,15 @@ interface NavProps {
   primary?: boolean;
 }
 
-const Navigation = styled.button<NavProps>`
+const Navigation = styled.nav<NavProps>`
   background-color: ${primaryColorBg};
   color: ${blackTxt};
   padding: 10px;
   border: none;
-  cursor: pointer;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export default Navigation;

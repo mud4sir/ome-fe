@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-// Define the props interface
 interface ButtonProps {
   primary?: boolean;
 }
