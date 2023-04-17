@@ -14,7 +14,7 @@ const Navigation: FC<NavigationProps> = ({ content }) => {
         };
         return (
             <S.Navigation>
-                <S.ImgAsIcon
+                <S.Image
                     src="https://png.pngtree.com/png-clipart/20220131/original/pngtree-mobile-exchange-logo-design-png-image_7261192.png"
                     title="logo"
                     width="100px"
@@ -39,7 +39,7 @@ const Navigation: FC<NavigationProps> = ({ content }) => {
                 </form>
                 {/* <div> */}
                 <S.ProfileBox title="profile">
-                    <S.ImgAsIcon
+                    <S.Image
                         src="https://ionicframework.com/docs/img/demos/avatar.svg"
                         title="profile avatar"
                         width="40"

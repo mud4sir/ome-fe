@@ -8,11 +8,11 @@ interface ImgProps {
 }
 
 
-const ImgAsIcon = styled.img<ImgProps>`
-  width: ${props => props.width || '50px'};
-  height: ${props => props.height || '50px'};
+const Image = styled.img<ImgProps>`
+  width: ${props => props.width || '100px'};
+  height: ${props => props.height || '100px'};
   title: ${props => props.title || 'generic content'};
   border-radius: ${props => (props.rounded && '100%')}
 `;
 
-export default ImgAsIcon;
+export default Image;

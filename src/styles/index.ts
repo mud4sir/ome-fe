@@ -4,7 +4,10 @@ import DropDownIcon from './DropDownIcon';
 import ProfileBox from './ProfileBox';
 import AddIcon from './AddIcon';
 import SellIconContainer from './SellIconContainer';
-import ImgAsIcon from './ImgAsIcon';
+import Image from './Image';
+import ProductsContainer from './ProductsContainer';
+import ProductCard from './ProductCard';
+import ImageWrapper from './ImageWrapper';
 
 export default {
     Navigation,
@@ -13,5 +16,8 @@ export default {
     ProfileBox,
     AddIcon,
     SellIconContainer,
-    ImgAsIcon,
+    Image,
+    ProductsContainer,
+    ProductCard,
+    ImageWrapper,
 };
