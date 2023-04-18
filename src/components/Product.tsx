@@ -7,9 +7,11 @@ const Product: FC<any> = ({ imgSrc }) => {
             <S.ImageWrapper>
                 <S.Image src={imgSrc} title="product" />
             </S.ImageWrapper>
-            <h3>iphone 7 plus</h3>
-            <p>35000</p>
-            <p>Islamabad pakistan</p>
+            <S.ProductInfo>
+                <h3>iphone 7 plus</h3>
+                <p>35000</p>
+                <p>Islamabad pakistan</p>
+            </S.ProductInfo>
         </S.ProductCard>
     );
 };

@@ -9,10 +9,11 @@ interface ImgProps {
 
 
 const Image = styled.img<ImgProps>`
-  width: ${props => props.width || '100px'};
-  height: ${props => props.height || '100px'};
+  width: ${props => props.width || '100%'};
+  height: ${props => props.height || '100%'};
   title: ${props => props.title || 'generic content'};
-  border-radius: ${props => (props.rounded && '100%')}
+  border-radius: ${props => (props.rounded && '100%')};
+  object-fit: contain;
 `;
 
 export default Image;

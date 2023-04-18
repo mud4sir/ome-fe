@@ -1,9 +1,11 @@
 import styled from "styled-components"
 
 const ImageWrapper = styled.div`
-background-color: black;
+height: 200px;
+overflow: hidden;
+background-color: #000;
+font-size: 0;
 width: 100%;
-text-align: center;
 `;
 
 export default ImageWrapper;

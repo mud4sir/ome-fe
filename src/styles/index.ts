@@ -18,6 +18,7 @@ export default {
     SellIconContainer,
     Image,
     ProductsContainer,
-    ProductCard,
+    ProductCard: ProductCard.ProductCard,
+    ProductInfo: ProductCard.ProductInfo,
     ImageWrapper,
 };
