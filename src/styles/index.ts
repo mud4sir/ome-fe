@@ -8,6 +8,9 @@ import Image from './Image';
 import ProductsContainer from './ProductsContainer';
 import ProductCard from './ProductCard';
 import ImageWrapper from './ImageWrapper';
+import ProductWrapper from './ProductWrapper';
+import BoxWrapper from './BoxWrapper';
+import ImageSlideWrapper from './ImageSlideWrapper';
 
 export default {
     Navigation,
@@ -21,4 +24,7 @@ export default {
     ProductCard: ProductCard.ProductCard,
     ProductInfo: ProductCard.ProductInfo,
     ImageWrapper,
+    ProductWrapper,
+    BoxWrapper,
+    ImageSlideWrapper,
 };

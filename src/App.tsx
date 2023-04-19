@@ -1,11 +1,17 @@
 import './App.css';
 import Home from './components/Home';
-import Navigation from './components/Navigation';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Product from './components/Product';
 
 function App() {
     return (
         <>
-            <Home />
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/mobile/:id" element={<Product />} />
+                </Routes>
+            </Router>
         </>
     );
 }
