@@ -11,6 +11,8 @@ import ImageWrapper from './ImageWrapper';
 import ProductWrapper from './ProductWrapper';
 import BoxWrapper from './BoxWrapper';
 import ImageSlideWrapper from './ImageSlideWrapper';
+import DescBox from './DescBox';
+import Heading from './Heading';
 
 export default {
     Navigation,
@@ -27,4 +29,6 @@ export default {
     ProductWrapper,
     BoxWrapper,
     ImageSlideWrapper,
+    DescBox,
+    Heading,
 };

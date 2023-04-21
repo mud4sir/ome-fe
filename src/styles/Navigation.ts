@@ -1,15 +1,8 @@
 import styled from 'styled-components';
-import primaryColorBg from './Variables';
-import blackTxt from './Variables';
 
-// Define the props interface
-interface NavProps {
-  primary?: boolean;
-}
-
-const Navigation = styled.nav<NavProps>`
-  background-color: ${primaryColorBg};
-  color: ${blackTxt};
+const Navigation = styled.nav`
+  background-color: ${props => props.theme.colors.primaryColorBg || ''};
+  color: ${props => props.theme.colors.black || ''};
   padding: 10px;
   border: none;
   display: flex;
