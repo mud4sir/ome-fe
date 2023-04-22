@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from './Layout';
+import Layout from '../components/Layout';
 import HomeProps from '../types/HomeProps';
-import Product from './ProductCard';
+import Product from '../components/ProductCard';
 import S from '../styles/index';
 
 const Home: React.FC<HomeProps> = (props) => {

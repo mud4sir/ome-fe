@@ -5,8 +5,8 @@ interface ButtonProps {
 }
 
 const Button = styled.button<ButtonProps>`
-  background-color: ${props => (props.primary ? '#007bff' : '#33b249')};
-  color: #fff;
+  background-color: ${({primary, theme: {colors}}) => (primary ? colors.primaryBtn : colors.secondaryBtn)};
+  color: ${props => props.theme.colors.white};
   padding: 10px;
   border: none;
   cursor: pointer;

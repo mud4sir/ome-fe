@@ -1,4 +1,3 @@
-import { rem } from 'polished';
 import styled, { css } from 'styled-components';
 
 const baseStyles = css`

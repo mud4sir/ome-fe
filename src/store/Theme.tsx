@@ -15,9 +15,11 @@ const theme = {
 
     // colors
     colors: {
+        white: '#eeeeee',
         black: '#252525',
         grey: '#696969',
-        primaryColorBg: '#fdedff',
+        primaryBtn: '#6739d4',
+        secondaryBtn: '#003366',
     },
 };
 
