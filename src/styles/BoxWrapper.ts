@@ -8,8 +8,8 @@ interface boxProps  {
 }
 
 const BoxWrapper = styled.div<boxProps>`
-width: ${ props => props.width ? props.width : '46%' };
-padding:  ${ props => props.padding ? props.padding : '20px' };
+width: ${ props => props.width ? props.width : '50%' };
+padding:  ${ props => props.padding ? props.padding : '10px' };
 border-radius:  ${ props => props.radius && props.radius};
 margin:  ${ props => props.margin && props.margin};
 border: 1px solid;

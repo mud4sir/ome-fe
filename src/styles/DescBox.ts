@@ -1,11 +1,17 @@
 import styled from "styled-components";
 
-const DescBox = styled.div`
-padding: 20px 0px;
+interface descBoxProps {
+    tiny?: boolean
+}
+
+const DescBox = styled.div<descBoxProps>`
 line-height: 1.25;
-border-bottom: 2px solid ${props => props.theme.colors.grey || ''};
+border-bottom: 2px solid ${({theme}) => theme.colors.grey || ''};
 &:last-child {
     border-bottom: none;
+};
+& p {
+    color: ${({theme}) => theme.colors.grey || ''};
 }
 `;
 

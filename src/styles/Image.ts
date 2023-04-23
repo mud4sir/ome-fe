@@ -5,6 +5,7 @@ interface ImgProps {
     height?: string;
     title?: string;
     rounded?: boolean;
+    logo?: boolean;
 }
 
 
@@ -14,6 +15,8 @@ const Image = styled.img<ImgProps>`
   title: ${props => props.title || 'generic content'};
   border-radius: ${props => (props.rounded && '50%')};
   object-fit: contain;
+  background-color: ${({theme: {colors}, logo}) => logo ? '' : colors.black};
+  cursor: pointer;
 `;
 
 export default Image;

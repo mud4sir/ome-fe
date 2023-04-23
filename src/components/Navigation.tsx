@@ -19,6 +19,7 @@ const Navigation: FC<NavigationProps> = ({ content }) => {
                     title="logo"
                     width="100px"
                     height="100px"
+                    logo
                 />
                 <form>
                     <select id="select-menu" onChange={selectOptionHandler}>
